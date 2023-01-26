@@ -1,5 +1,6 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
+
 [35m[Appium][39m   port: 60537
 [35m[Appium][39m   tmpDir: C:\Users\User-PC\AppData\Local\Temp\\Katalon\Appium\Temp1674719745733
 [35m[Appium][39m   chromedriverPort: 60538
@@ -8,11 +9,15 @@
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
 [35m[Appium][39m   chromedriverPort: 60538
 [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60537
+
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+
+
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
@@ -21,9 +26,11 @@
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+
 [35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","platform":"ANDROID","systemPort":8297},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8297,"appium:udid":"emulator-5554"}]}}[39m
 [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","platform":"ANDROID","systemPort":8297},null,{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8297,"appium:udid":"emulator-5554"}]}]
 [debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1674719747203 (14:55:47 GMT+0700 (Western Indonesia Time))
+
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
@@ -33,7 +40,9 @@
 [debug] [35m[BaseDriver][39m   "alwaysMatch": {
 [debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
 [debug] [35m[BaseDriver][39m     "platformName": "android",
+
 [debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 60538,
+
 [debug] [35m[BaseDriver][39m     "appium:appActivity": ".Settings",
 [debug] [35m[BaseDriver][39m     "appium:appPackage": "com.android.settings",
 [debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
@@ -41,7 +50,9 @@
 [debug] [35m[BaseDriver][39m     "appium:deviceName": "emulator-5554 (sdk_gphone_x86 - Android 11)",
 [debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
 [debug] [35m[BaseDriver][39m     "appium:platformVersion": "11",
+
 [debug] [35m[BaseDriver][39m     "appium:systemPort": 8297,
+
 [debug] [35m[BaseDriver][39m     "appium:udid": "emulator-5554"
 [debug] [35m[BaseDriver][39m   },
 [debug] [35m[BaseDriver][39m   "firstMatch": [
@@ -50,7 +61,9 @@
 [debug] [35m[BaseDriver][39m }
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
+
 [35m[BaseDriver][39m Session created with session id: e300eed0-b3ea-482f-8fd2-0171c9018bec
+
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\User-PC\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/User-PC/.katalon/tools/android_sdk/build-tools/29.0.3
@@ -88,9 +101,11 @@
 [debug] [35m[ADB][39m Running 'C:\Users\User-PC\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
 [debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
 [debug] [35m[Logcat][39m Starting logs capture with command: C:\\Users\\User-PC\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+
 [debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 8297
 [debug] [35m[ADB][39m Forwarding system: 8297 to device: 6790
 [debug] [35m[ADB][39m Running 'C:\Users\User-PC\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8297 tcp:6790'
+
 [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
 [debug] [35m[ADB][39m Running 'C:\Users\User-PC\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
 [debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
@@ -150,6 +165,7 @@
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8297/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
 [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
@@ -169,10 +185,12 @@
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8297/wd/hub/session/a5fadfca-a195-4195-9a3b-caaaeae250f8/appium/device/info] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a5fadfca-a195-4195-9a3b-caaaeae250f8","value":{"androidId":"7c7c591625caa96f","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{...
+
 [debug] [35m[ADB][39m Running 'C:\Users\User-PC\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
 [debug] [35m[ADB][39m Running 'C:\Users\User-PC\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.android.settings/.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+
 [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8297/wd/hub/session/a5fadfca-a195-4195-9a3b-caaaeae250f8/appium/device/pixel_ratio] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a5fadfca-a195-4195-9a3b-caaaeae250f8","value":2.75}
 [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
@@ -206,6 +224,7 @@
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"a5fadfca-a195-4195-9a3b-caaaeae250f8","value":{"lastScrollData":null}}
 [debug] [35m[W3C (e300eed0)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","chromedriverPort":60538,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (sdk_gphone_x86 - Android 11)","newCommandTimeout":1800,"platformVersion":"11","systemPort":8297,"udid":"emulator-5554"},"platformName":"android","chromedriverPort":60538,"appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"platformVersion":"11","systemPort":8297,"udid":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":30,"deviceScreenSize":"1080x2280","deviceScreenDensity":440,"deviceModel":"sdk_gphone_x86","deviceManufacturer":"Google","pixelRatio":2...
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/e300eed0-b3ea-482f-8fd2-0171c9018bec [39m[32m200[39m [90m8 ms - 1138[39m
+
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
@@ -213,6 +232,7 @@
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
+
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e300eed0-b3ea-482f-8fd2-0171c9018bec/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
 [debug] [35m[W3C (e300eed0)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"e300eed0-b3ea-482f-8fd2-0171c9018bec"]
@@ -249,6 +269,7 @@
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e300eed0-b3ea-482f-8fd2-0171c9018bec/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.saucelabs.mydemoapp.rn"}[39m
 [debug] [35m[W3C (e300eed0)][39m Calling AppiumDriver.activateApp() with args: ["com.saucelabs.mydemoapp.rn",null,null,null,"e300eed0-b3ea-482f-8fd2-0171c9018bec"]
+
 [debug] [35m[AndroidDriver][39m Activating 'com.saucelabs.mydemoapp.rn' with 'adb shell monkey -p com.saucelabs.mydemoapp.rn -c android.intent.category.LAUNCHER 1' command
 [debug] [35m[ADB][39m Running 'C:\Users\User-PC\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell monkey -p com.saucelabs.mydemoapp.rn -c android.intent.category.LAUNCHER 1'
 [debug] [35m[AndroidDriver][39m Command stdout: bash arg: -p
@@ -257,6 +278,7 @@
 [debug] [35m[AndroidDriver][39m   bash arg: android.intent.category.LAUNCHER
 [debug] [35m[AndroidDriver][39m   bash arg: 1
 [debug] [35m[AndroidDriver][39m Events injected: 1
+
 [debug] [35m[AndroidDriver][39m ## Network stats: elapsed time=48ms (0ms mobile, 0ms wifi, 48ms not connected)
 [debug] [35m[W3C (e300eed0)][39m Responding to client with driver.activateApp() result: null
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/e300eed0-b3ea-482f-8fd2-0171c9018bec/appium/device/activate_app [39m[32m200[39m [90m381 ms - 14[39m
@@ -699,4 +721,5 @@
 [debug] [35m[W3C (e300eed0)][39m But deleting session, so not returning
 [debug] [35m[W3C (e300eed0)][39m Responding to client with driver.deleteSession() result: null
 [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/e300eed0-b3ea-482f-8fd2-0171c9018bec [39m[32m200[39m [90m250 ms - 14[39m
+
 [35m[HTTP][39m [90m[39m
