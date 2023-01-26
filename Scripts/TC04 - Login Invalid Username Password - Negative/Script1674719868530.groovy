@@ -23,9 +23,9 @@ Mobile.tap(findTestObject('Object Repository/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Log In'), 0)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText'), 'trian', 0)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText'), '', 0)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText (1)'), '123', 0)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (1)'), '', 0)
 
 Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup'), 0)
 
