@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03 - Checkout and Payment - Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b942871b-68a6-4642-b134-67a5353dc649</testCaseGuid>
+</TestCaseEntity>
