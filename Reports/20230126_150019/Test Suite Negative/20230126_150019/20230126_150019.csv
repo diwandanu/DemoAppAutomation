@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Negative,,,,2023-01-26 15:00:22,2023-01-26 15:01:15,52.891s,PASSED
+,,,,,,,
+Test Cases/TC04 - Login Invalid Username Password - Negative,,,,2023-01-26 15:00:23,2023-01-26 15:00:51,28.466s,PASSED
+"startApplication(""C:\Users\User-PC\Downloads\apk\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 15:00:23,2023-01-26 15:00:43,19.661s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0)",,,,2023-01-26 15:00:43,2023-01-26 15:00:44,1.151s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Log In""), 0)",,,,2023-01-26 15:00:44,2023-01-26 15:00:46,2.103s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText""), """", 0)",,,,2023-01-26 15:00:46,2023-01-26 15:00:48,2.141s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText (1)""), """", 0)",,,,2023-01-26 15:00:48,2023-01-26 15:00:49,1.087s,PASSED
+"tap(findTestObject(""Object Repository/android.view.ViewGroup""), 0)",,,,2023-01-26 15:00:49,2023-01-26 15:00:50,0.615s,PASSED
+closeApplication(),,,,2023-01-26 15:00:50,2023-01-26 15:00:51,1.234s,PASSED
+,,,,,,,
+Test Cases/TC05 - Login Blank Username Password - Negative,,,,2023-01-26 15:00:51,2023-01-26 15:01:15,24.127s,PASSED
+"startApplication(""C:\Users\User-PC\Downloads\apk\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2023-01-26 15:00:52,2023-01-26 15:01:07,15.588s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0)",,,,2023-01-26 15:01:07,2023-01-26 15:01:08,0.939s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Log In""), 0)",,,,2023-01-26 15:01:08,2023-01-26 15:01:10,2.048s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText""), ""trian"", 0)",,,,2023-01-26 15:01:10,2023-01-26 15:01:12,2.180s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText (1)""), ""123"", 0)",,,,2023-01-26 15:01:12,2023-01-26 15:01:14,1.212s,PASSED
+"tap(findTestObject(""Object Repository/android.view.ViewGroup""), 0)",,,,2023-01-26 15:01:14,2023-01-26 15:01:14,0.707s,PASSED
+closeApplication(),,,,2023-01-26 15:01:14,2023-01-26 15:01:15,1.068s,PASSED
